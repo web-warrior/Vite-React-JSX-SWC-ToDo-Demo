@@ -1,0 +1,177 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* Need a global reset here */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.todo {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.todo h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+button, input[type=text] {
+  min-width: 100px;
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.right {
+  float: right;
+}
+
+.btn-primary {
+  margin: 15px 0px 15px 0px;
+}
+
+.btn-secondary {
+  margin: 0px 0px 15px 0px;
+}
+
+input[type=text] {
+  margin: 0px 15px 0px 0px;
+  min-width: 200px
+}
+
+input[type=checkbox] {
+  margin: 0px 15px 0px 0px;
+  height: 22px;
+}
+
+label {
+  padding-right: 15px;
+  display: inline-block;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+.todo-list-wrapper,
+.task-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #ccc;
+    border: 1px solid #000;
+}
+
+.task-wrapper {
+  margin: 15px 0px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.task-edit-form {
+  display: flex;
+  width: 100%;
+}
+
+.task-status-wrapper {
+  display: flex;
+}
+
+.task-status-complete {
+  color: #999;
+}
+
+.task-label {
+  font-weight: 600;
+  padding: 0px 15px 0px 0px;
+}
+
+.task-completed {
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-bottom: 15px;
+}
+
+.task-completed,
+.task-incomplete {
+  width: 100%;
+  display: flex;
+}
+
+input[type=text].new-task-description,
+.task-data {
+  margin-top: 15px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 20px;
+}
+
+input[type=text].task-description,
+.task-data {
+  width: 100%;
+  display: inline-block;
+  margin: 0px 15px 15px 0px;
+}
+
+.task-data-complete {
+  color: #999;
+}
+
+.btn-wrapper {
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
