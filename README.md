@@ -1,4 +1,6 @@
-## This ToDo List demo was built with the vite-plugin-react-swc plugin (SWC - Speedy Web Compiler is faster than Babel)
+# This ToDo List demo was built with the vite-plugin-react-swc plugin 
+
+SWC, "Speedy Web Compiler" builds faster than Babel
 
 To run in dev mode use:
 $ npm run dev
