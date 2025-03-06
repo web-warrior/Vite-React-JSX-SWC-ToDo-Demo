@@ -1,13 +1,18 @@
-# This ToDo List demo was built with the vite-plugin-react-swc plugin 
+# This ToDo List demo was built with the vite-plugin-react-swc plugin
+
+You can view a hosted version of this demo at: https://eye-4design.org/vite-react-todo-demo/
 
 SWC, "Speedy Web Compiler" builds faster than Babel
 
+
+
 To run in dev mode use:
+
 $ npm run dev
 
 To compile a production build use (although, this demo "as is" is not intended for production use):
-$ npm run build
 
+$ npm run build
 
 
 ### This ToDo List demo was created by Jenny McClaine and as an exercise in a small set of responsive IU and interactive form functionality
